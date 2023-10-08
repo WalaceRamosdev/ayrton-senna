@@ -6,25 +6,45 @@
 }
 
 #cabecalho {
-    background-image: linear-gradient(180deg, black, transparent);;
+    background-image: url(img/capa\ senna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     color: white;
     padding: 15px;
+    
 }
 
-#titulopage {
+#ass-senna {
+    width: 400px;
+}
+
+#titulopage { 
+   background-color: rgba(0, 0, 0, 0.473); 
    padding: 15px;
    text-align: center;
    font-family: 'Inter';
+   
 }
 
 body {
-    background-image: url(img/imagens\ de\ fundo.jpg);
+    
     background-size: cover;
 
 }
 
 #conteudo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
     color: white;
     font-family: 'Inter';
+}
+
+#carro-senna {
+    width: 300px;
+    
 }
