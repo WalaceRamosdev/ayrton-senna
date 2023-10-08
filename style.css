@@ -6,29 +6,28 @@
 }
 
 #cabecalho {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
     background-image: url(img/capa\ senna.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     color: white;
     padding: 15px;
     
 }
 
-#ass-senna {
-    width: 400px;
-}
+#titulocabecalho { 
+    background-color: rgba(0, 0, 0, 0.692); 
+    border-radius: 15px;
+    width: 264px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Inter';
+ 
+ }
 
-#titulopage { 
-   background-color: rgba(0, 0, 0, 0.473); 
-   padding: 15px;
-   text-align: center;
-   font-family: 'Inter';
-   
-}
-
-body {
-    
+body { 
     background-size: cover;
 
 }
@@ -37,14 +36,14 @@ body {
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-image:linear-gradient(180deg yellow green);
+    color: black;
     font-family: 'Inter';
 }
 
-#carro-senna {
+.capacete {
     width: 300px;
-    
 }
+
