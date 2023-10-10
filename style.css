@@ -41,11 +41,12 @@ body {
     color: black;
     font-family: 'Inter';
     background-color: rgba(0, 0, 0, 0.137);
+    font-weight: bold;
 }
 
 .ayrton {
     width: 500px;
-    padding-left: 35%;
+    
 }
 
 .capacete {
