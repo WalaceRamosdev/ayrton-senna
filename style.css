@@ -53,3 +53,9 @@ body {
     width: 300px;
 }
 
+footer {
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.253);
+}
